@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lululemon Discounts + Rewards</title>
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #111;
+}
+
+.page {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 44px 14px;
+}
+
+.brand {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 13px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 22px 20px 26px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.06);
+}
+
+.headline {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.headline h1 {
+  font-size: 26px;
+  line-height: 1.05;
+  font-weight: 900;
+  color: #111;
+  white-space: nowrap;
+  letter-spacing: -0.7px;
+}
+
+.pill {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 7px 22px;
+  border-radius: 999px;
+  background: #e31922;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 900;
+  box-shadow:
+    0 0 12px rgba(227,25,34,0.45),
+    0 8px 20px rgba(227,25,34,0.35);
+}
+
+.subtext {
+  text-align: center;
+  font-size: 15px;
+  color: #2f4054;
+  margin: 16px 0 26px;
+}
+
+.step {
+  display: flex;
+  gap: 13px;
+  align-items: flex-start;
+  padding: 17px 16px;
+  border: 1px solid #dfe5eb;
+  background: #f8fafc;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+.check {
+  width: 27px;
+  height: 27px;
+  min-width: 27px;
+  border-radius: 50%;
+  background: #111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.step h3 {
+  font-size: 16.5px;
+  font-weight: 900;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.step p {
+  font-size: 14px;
+  color: #2f4054;
+}
+
+.next-box {
+  border: 1px solid #dfe5eb;
+  border-radius: 14px;
+  padding: 17px 16px;
+  margin: 20px 0;
+  background: #fff;
+}
+
+.next-box h3 {
+  font-size: 17px;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.next-box p {
+  font-size: 14px;
+  color: #2f4054;
+}
+
+.cta {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: #111;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 17px 14px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 18px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+  cursor: pointer;
+}
+
+.small-note {
+  text-align: center;
+  font-size: 12px;
+  color: #667085;
+  margin: 13px 0 25px;
+}
+
+.faq-title {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.faq-item {
+  border: 1px solid #dfe5eb;
+  border-radius: 10px;
+  margin-bottom: 11px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 16px 14px;
+  background: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+  color: #111;
+  text-align: left;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 14px 16px;
+  font-size: 14px;
+  color: #2f4054;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.symbol {
+  font-size: 21px;
+  font-weight: 900;
+  color: #111;
+  padding-left: 12px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  color: #8a94a6;
+  margin-top: 18px;
+}
+
+/* Mobile */
+@media (max-width: 520px) {
+  .page {
+    max-width: 100%;
+    padding: 36px 12px;
+  }
+
+  .card {
+    padding: 20px 18px 24px;
+  }
+
+  .headline h1 {
+    font-size: 23px;
+    letter-spacing: -1px;
+  }
+
+  .brand {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .headline h1 {
+    font-size: 21px;
+    letter-spacing: -1.2px;
+  }
+
+  .brand {
+    font-size: 28px;
+    letter-spacing: 8px;
+  }
+}
+</style>
+</head>
+
+<body>
+<main class="page">
+
+<div class="brand">LULULEMON</div>
+
+<section class="card">
+
+<div class="headline">
+  <h1>Lululemon Discounts + Rewards</h1>
+  <div class="pill">Up to $500</div>
+</div>
+
+<p class="subtext">
+This page explains how people are getting Lululemon rewards online.
+</p>
+
+<div class="step">
+  <div class="check">✓</div>
+  <div>
+    <h3>Enter a valid email</h3>
+    <p>Continue to the next page and submit your email to start.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="check">✓</div>
+  <div>
+    <h3>Complete 4–5 deals</h3>
+    <p>Deals may include surveys, app installs, trial offers, or similar steps.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="check">✓</div>
+  <div>
+    <h3>Receive your reward</h3>
+    <p>After completing the required steps, you can qualify for your reward.</p>
+  </div>
+</div>
+
+<div class="next-box">
+  <h3>What happens next?</h3>
+  <p>You’ll continue to the next page, answer a few quick questions, submit your email, and complete the required deals shown to you.</p>
+</div>
+
+<a class="cta" href="https://giftclick.org/aff_c?offer_id=314&aff_id=170653&source=lulutt">
+Continue to Next Step →
+</a>
+
+<p class="small-note">
+Eligibility and completion requirements apply.
+</p>
+
+<h2 class="faq-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<button class="faq-question">
+How do I get the discount?
+<span class="symbol">+</span>
+</button>
+<div class="faq-answer">
+Tap the button above, submit your email, and complete the required deals shown on the next page.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+How many deals do I have to do?
+<span class="symbol">+</span>
+</button>
+<div class="faq-answer">
+Most users may need to complete around 4–5 deals depending on the path shown to them.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+How long do the deals take?
+<span class="symbol">+</span>
+</button>
+<div class="faq-answer">
+It depends on the deals shown. Some are quick, while others may take longer.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+When will I receive my reward?
+<span class="symbol">+</span>
+</button>
+<div class="faq-answer">
+After completing the required deals, you can qualify for the reward shown on the next page.
+</div>
+</div>
+
+</section>
+
+<p class="footer">
+This page is not affiliated with Lululemon.
+</p>
+
+</main>
+
+<script>
+document.querySelectorAll(".faq-item").forEach(item => {
+  const btn = item.querySelector(".faq-question");
+  const symbol = item.querySelector(".symbol");
+
+  btn.addEventListener("click", () => {
+    item.classList.toggle("active");
+    symbol.textContent = item.classList.contains("active") ? "-" : "+";
+  });
+});
+</script>
+
+</body>
+</html>
